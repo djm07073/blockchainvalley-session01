@@ -7,6 +7,7 @@ describe("Test Hello Hardhat", function () {
   before("Deploy HelloHardhat", async function () {
     const helloHardhat_factory: HelloHardhat__factory =
       await ethers.getContractFactory("HelloHardhat");
+
     helloHardhat = await helloHardhat_factory.deploy(
       "Hello Hardhat",
       "BV",

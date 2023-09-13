@@ -8,7 +8,7 @@ const config: HardhatUserConfig = {
 
   networks: {
     sepolia: {
-      url: "https://rpc.sepolia.org",
+      url: "https://ethereum-sepolia.blockpi.network/v1/rpc/public",
       accounts: [PK],
     },
   },
